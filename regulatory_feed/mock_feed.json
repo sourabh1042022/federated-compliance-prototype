@@ -1,0 +1,14 @@
+[
+  {
+    "requirement": "Data must be encrypted before transmission",
+    "jurisdiction": "US"
+  },
+  {
+    "requirement": "Log data must be retained for at least 12 months",
+    "jurisdiction": "EU"
+  },
+  {
+    "requirement": "User consent is required for data collection",
+    "jurisdiction": "Global"
+  }
+]
