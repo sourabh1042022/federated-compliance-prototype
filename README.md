@@ -36,6 +36,7 @@ cd federated-ui
 npm install
 npm run dev
 ```
+![image](https://github.com/user-attachments/assets/3c47df2d-c025-4dec-b750-07a47f271658)
 
 ## Author
 Sourabh, June 2025
