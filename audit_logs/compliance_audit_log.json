@@ -1,1 +1,20 @@
-[]
+added audit logging inside the api_server.py as part of this code block:
+
+
+
+
+
+
+
+
+
+from datetime import datetime
+
+log_entry = {
+    "timestamp": datetime.utcnow().isoformat() + "Z",
+    "input_text": text,
+    "obligations": obligations,
+    "compliance_score": compliance_score
+}
+with open("audit_logs/compliance_audit_log.json", "a") as logfile:
+    logfile.write(json.dumps(log_entry) + "\n")
